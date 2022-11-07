@@ -1,0 +1,36 @@
+{"intents": [
+
+
+
+        {"tag":"giris",
+        "patterns":["anneme merhaba de","merhaba","nasılsın","iyimisin","nasılsın iyimisin"],
+        "response":["merhaba hosgeldin bircan teyze"]
+        
+        },
+        {"tag":"giris2",
+        "patterns":["ne yapıyon","ne yapıyorsun","nerdesin","nereden konuşuyorsun","nasıl konuşuyorsun","kim seni konuşturuyor"],
+        "response":["hic sen ne yapiyon","hic sen ne yapiyorsun"]
+        
+        },
+        {"tag":"guncel",
+        "patterns":["senden korkmalımıyız","insanlari severmisin"],
+        "response":["hayir ben arkadas canlisi biriyim,korkmana gerek yok tabiki"]
+       
+        },
+        {"tag":"ad",
+        "patterns":["ismin nedir","ismin ne"],
+        "response":["bana sadece robo diyebilirsin"]
+        
+        },
+        {"tag":"yas",
+        "patterns":["yaş kaç","yaşın varmı","yaşım ","yas kac","yaş"],
+        "response":["kisa bir zaman önce programlandim,peki senin?"]
+        
+        },
+        {"tag":"terapi",
+        "patterns":["bana biraz terapi uygulayabilirmisin?","Terapiye ihtiyacim var","Terapistim olurmusun","Psikolojim bozuk biraz"],
+        "response":["benimle acik ver anlasilir bir dille iletisim kurarsan,terapi ihtiyacini gidebilirim"]
+        
+        }
+    ]
+}

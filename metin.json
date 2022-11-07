@@ -3,8 +3,8 @@
 
 
         {"tag":"giris",
-        "patterns":["anneme merhaba de","merhaba","nasılsın","iyimisin","nasılsın iyimisin"],
-        "response":["merhaba hosgeldin bircan teyze"]
+        "patterns":["Merhaba","Hey merhaba","ne haber?","nasılsın iyimisin"],
+        "response":["merhaba","Hey mrb","İyi senden?","İyiyim teşekkürler,Sen?"]
         
         },
         {"tag":"giris2",
@@ -19,17 +19,12 @@
         },
         {"tag":"ad",
         "patterns":["ismin nedir","ismin ne"],
-        "response":["bana sadece robo diyebilirsin"]
+        "response":["İsmim Robo, Senin?","Bana robo diyebilirsin, senin ismin ne?"]
         
         },
         {"tag":"yas",
         "patterns":["yaş kaç","yaşın varmı","yaşım ","yas kac","yaş"],
         "response":["kisa bir zaman önce programlandim,peki senin?"]
-        
-        },
-        {"tag":"terapi",
-        "patterns":["bana biraz terapi uygulayabilirmisin?","Terapiye ihtiyacim var","Terapistim olurmusun","Psikolojim bozuk biraz"],
-        "response":["benimle acik ver anlasilir bir dille iletisim kurarsan,terapi ihtiyacini gidebilirim"]
         
         }
     ]

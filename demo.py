@@ -38,11 +38,11 @@ if __name__ == '__main__':
                         default="saved_models/default/vocoder.pt",
                         help="Path to a saved vocoder")
     parser.add_argument("--cpu", action="store_true", help=\
-        "If True, processing is done on CPU, even when a GPU is available.")
+        
     parser.add_argument("--no_sound", action="store_true", help=\
-        "If True, audio won't be played.")
+        
     parser.add_argument("--seed", type=int, default=None, help=\
-        "Optional random number seed value to make toolbox deterministic.")
+       
     args = parser.parse_args()
     arg_dict = vars(args)
     print_args(args, parser)
@@ -56,9 +56,6 @@ if __name__ == '__main__':
     if torch.cuda.is_available():
         device_id = torch.cuda.current_device()
         gpu_properties = torch.cuda.get_device_properties(device_id)
-        ## Print some environment information (for debugging purposes)
-        print("Found %d GPUs available. Using GPU %d (%s) of compute capability %d.%d with "
-            "%.1fGb total memory.\n" %
             (torch.cuda.device_count(),
             device_id,
             gpu_properties.name,
@@ -99,7 +96,7 @@ if __name__ == '__main__':
     print("\Ses kodlayıcı test ediyor...")
     vocoder.infer_waveform(mel, target=200, overlap=50, progress_callback=no_action)
     num_generated = ""    
-    girdi_yolu = Path("/content/drive/MyDrive/DerinSesChat/steve.wav")
+    girdi_yolu = Path(" ")
     ## Hafızaya İşleniyor
     preprocessed_wav = encoder.preprocess_wav(girdi_yolu)
     original_wav, sampling_rate = librosa.load(str(girdi_yolu))

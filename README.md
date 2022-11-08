@@ -1,5 +1,5 @@
 # DerinSesChat-
-1.İlk adımda github kaynaklı dosyayı indirerek veya git clone "https://github.com/onurcelal/DerinSesChat" yöntemiyle indirilmelidir. 
+1.İlk adımda github kaynaklı dosyayı indirerek veya --git clone https://github.com/onurcelal/DerinSesChat yöntemiyle indirilmelidir. 
 
 2.İkinci adımda eğitim dosyasını çalıştırıp .pkl ve .h5 uzantılı dosyalar üretilmesi gerekmektedir.
 
@@ -11,4 +11,4 @@
 
 6.Gerekli ses dosyası .wav formatında tanımladıktan sonra main.py dosyasını çalıştırınız.
 
-7.Program çalıştığında "Siz:" ile başlayan komut yazım alanı gelecektir. Buraya dilediğiniz bir kelime veya yazı yazarak programın buna yanıt vermesi için gerekli süreci başlatmış olacaksınız.  
+7.Yazılım çalışmaya başladığında "Siz:" ile başlayan bir komut yazım alanı görülecek. Buraya dilediğiniz bir kelime veya yazı yazarak yazılımın buna yanıt vermesi için gerekli süreci başlatmış olacaksınız. Aksi takdirde algoritma çalışmayacaktır.

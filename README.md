@@ -9,6 +9,6 @@
 
 5.Tüm kurulum tamamlandıktan sonra dosyanın çalıştırıldığı klasöre en az 3 saniyelik bir ses dosyasını .wav formatında main.py dosyasında yer alan "dosya_adı" isimli kısma tanımlanmalıdır. 
 
-6.Gerekli ses dosyası .wav formatında tanımladıktan sonra main.py dosyasını çalıştırınız.
+6.Gerekli ses dosyası .wav formatında tanımladıktan sonra demo.py dosyasını çalıştırınız.
 
 7.Yazılım çalışmaya başladığında "Siz:" ile başlayan bir komut yazım alanı görülecek. Buraya dilediğiniz bir kelime veya yazı yazarak yazılımın buna yanıt vermesi için gerekli süreci başlatmış olacaksınız. Aksi takdirde algoritma çalışmayacaktır.
